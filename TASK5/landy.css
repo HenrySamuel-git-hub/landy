@@ -1,0 +1,325 @@
+
+.heading{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    font-family: "Motiva Sans Light", sans-serif;
+    margin-bottom:100px;
+
+}
+
+.heading > h1{
+    color:rgb(46, 24, 106);  
+}
+#links{
+    display: flex;
+    color: rgb(46, 24, 106);
+    column-gap: 90px;   
+    align-items: center;
+    font-family: "Motiva Sans Light", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#links > span > a{
+   background-color: rgb(46, 24, 106);
+   font-size: 20px;
+   color: white;
+   padding: 10px 40px;
+   text-decoration: none;
+   box-shadow: 10px;
+   border-radius: 5px;
+}
+#links > span > a:hover{
+    background-color: orange;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Motiva Sans Light", sans-serif;
+}
+
+
+.image{
+display: flex;
+align-items: center;
+justify-content:space-around ;
+padding-right: 100px;
+}
+#landingPage > h1{
+    font-size:60px;
+    color: rgb(46, 24, 106);
+}
+#landingPage > p{
+    font-size:large;
+}
+
+#landingPage{
+    width:400px;
+    padding-left: 150px;
+
+}
+.btns{
+    display: flex;
+    column-gap: 30px;
+    text-decoration: none;
+    align-items:center;
+    font-family: "Motiva Sans Light", sans-serif;
+    
+}
+.btns > p1 > a{
+background-color: rgb(46, 24, 106);
+padding: 10px 40px;
+box-shadow:50px;
+color: white;
+border-radius: 5px;
+}
+.btns > p1 > a:hover{
+    background-color: orange    ;
+}
+.btns > p2 > a{
+ background-color: whitesmoke;
+ padding: 10px 40px;
+ color: rgb(46, 24, 106);
+ border-radius: 5px;
+}
+.btns > p2 > a:hover{
+    background-color: orange;
+}
+.product{
+    display: flex;
+    text-align:center;
+    justify-content:center;
+    margin-top: 100px;    
+    width: 600px;
+    font-size:30px;
+    color: rgb(46, 24, 106);
+    padding-left: 430px;
+    align-items: center;
+    font-family: "Motiva Sans Light", sans-serif;
+}
+
+.h3{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    width: 600px;
+    font-size: 20px;
+    margin: 0px;
+    padding-left: 440px;
+    color: rgb(46, 24, 106);
+    align-items: center;
+    font-family: "Motiva Sans Light", sans-serif;
+}
+#key{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#key > p > a{
+    color:white;
+    background-color: rgb(46, 24, 106);
+    padding: 10px 50px;
+    text-decoration: solid white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#key > p > a:hover{
+    background-color: orange;
+}
+#task2{
+    display:flex;
+    justify-content: center;
+    margin-top: 90px;
+    align-items: center;
+    font-family: "Motiva Sans Light", sans-serif;
+}
+.image2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    padding-left: 180px;
+    font-family: "Motiva Sans Light", sans-serif;
+}
+#template > h1{
+    font-size: 45px;
+    width: 280px;
+    color: rgb(46, 24, 106);
+}
+.matter > p{
+    text-decoration: none;
+    width: 400px;
+    font-size: 20px;
+    color: rgb(7, 7, 70);
+}
+.why{
+    display: flex;
+    justify-content:space-around;
+    column-gap: 50px;
+    align-items: center;
+    font-family: "Motiva Sans Light", sans-serif;
+}
+#qstn{
+    width:240px;
+
+}
+#qstn > span{
+    font-size:15px;
+    color: rgb(46, 24, 106);
+}
+#pics > span{
+    font-size: 15px;
+    color: rgb(46, 24, 106);
+}
+#pics{
+    width: 280px;
+    margin-bottom: 25px;
+}
+#task3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    font-family: "Motiva Sans Light", sans-serif;
+}
+.ready{
+    width: 500px;
+    margin-bottom: 100px;
+    padding-left: 180px;
+}
+.ready > h1{
+    font-size: 60px;
+    color: rgb(46, 24, 106);
+}
+.ready > p{
+    font-size: 23px;
+    color: rgb(46, 24, 106);
+}
+
+#task4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.about > h1{
+    font-size: 60px;
+    color: rgb(46, 24, 106);
+}
+.about > p{
+    font-size: 20px;
+    color: rgb(46, 24, 106);
+}
+.image4{
+    width: 450px;
+    margin-bottom: 40px;
+    padding-left: 150px;
+}
+.about{
+    width:500px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    font-family: "Motiva Sans Light", sans-serif;
+}
+#task5{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-family: "Motiva Sans Light", sans-serif;
+}
+.contact{
+    width: 20%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.contact > p{
+    font-size: 25px;
+    width: 150%;
+    color: rgb(46, 24, 106);
+}
+.contact > h1{
+    font-size: 45px;
+    color: rgb(46, 24, 106);
+}
+.inputs > #name{
+    border:none;
+    background-color: rgba(208, 208, 195, 0.382);
+    outline: none;
+    width: 520px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+.inputs > #emailid{
+    border:none;
+    display: inline;
+    background-color: rgba(208, 208, 195, 0.382);
+    outline: none;
+    width: 520px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.inputs > #message{
+    border:none;
+    background-color: rgba(208, 208, 195, 0.382);
+    outline: none;
+    width: 520px;
+    height: 150px;
+    border-radius: 5px;
+
+}
+.inputs{
+    margin-right: 100px;
+    width: 31%;
+}
+.inputs > p > a{
+    background-color: rgb(46, 24, 106);
+    padding: 10px 40px;
+    margin-left: 400px;
+    color: white;
+    box-shadow: 500px;
+    border-radius: 5px;
+}
+.inputs > p > a:hover{
+    background-color: orange;
+}
+.refer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:  rgba(208, 208, 195, 0.382);
+    color:rgb(46, 24, 106);
+    margin-top: 50px;
+}
+.center > a > #img1{
+    margin-bottom: 45%;
+    
+}
+#last{
+    border-top: 1px solid rgb(205, 209, 212);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(208, 208, 195, 0.382) ;
+    margin-left: auto;
+    color:rgb(46, 24, 106); 
+}
+.icons{
+    display: flex;
+    width: 30px;
+    column-gap: 80px;
+    column-width: auto;
+}
+
+.center > a > #img2{
+    margin-bottom: 45%;
+}
+
+
+
+
